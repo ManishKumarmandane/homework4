@@ -7,7 +7,7 @@ public class OddEvenumber
         int i ;
         for(i=0; i<=20;i++)
         {
-            if (i % 2 == 0)
+            if ((i % 2) == 0)
             {
                 //System.out.println("print even number");
                 System.out.print(+ i + "= Is Even"  );
